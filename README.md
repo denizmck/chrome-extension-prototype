@@ -1,27 +1,26 @@
-# ExtensionIhkMalik
+# Chrome Extension Prototype
+this project exists to investigate the development of chrome extensions and make a small prototype of the idea.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
+## Installation
+The installation is straight forward.  
+The project utilizes TypeScript and SASS therefore node is needed.  
+Typescript is setup to be easily compiled by using the `npx tsc` command.  
+SASS isn't universally setup - this specific setup uses [LiveSassCompiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass "VSCode Extension Marketplace").  
+When using this extension and enabling it everything will compile to the right folder and bundle itself. If not please use own setup.  
 
-## Development server
+## Idea
+The core idea is to make an healthy office life easier.  
+The extension will save important information like drink amount, food amount and workout time. This will be evaluated from the software to generate experience points.
+These experience points will result in level ups which motivates the user to do more.  
+Obviously this is gimmicky and can easily be cheated on but its no tracking tool or spy software - the experience will be dependent on the user.  
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Activity Diagram
+This first UML Diagram will show what the core idea experience would be like
+![Activity UML Diagram](/concept/extension_activity_uml.png)
 
-## Code scaffolding
+## Licences
+This project currently uses icons and images from the web.  
+During the development all unlicensed material will be gone. For now some remain as placeholder.    
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+List of license holders :
+- icons8.com | all icons tagged `i8` | iOS16 library
