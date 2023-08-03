@@ -3,7 +3,7 @@ this project exists to investigate the development of chrome extensions and make
 
 ## Installation
 This prototype utilizes Angular.  
-When cloning just type `npm i` at the root of the project to install all dependencies.
+When cloning just type `npm i` at the root of the project to install all dependencies.  
 You start the project by typing `ng serve`. This will start a development server at `127.0.0.1:4200`.
 This will only be for development purposes.
 
