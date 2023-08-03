@@ -2,11 +2,10 @@
 this project exists to investigate the development of chrome extensions and make a small prototype of the idea.
 
 ## Installation
-The installation is straight forward.  
-The project utilizes TypeScript and SASS therefore node is needed.  
-Typescript is setup to be easily compiled by using the `npx tsc` command.  
-SASS isn't universally setup - this specific setup uses [LiveSassCompiler](https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass "VSCode Extension Marketplace").  
-When using this extension and enabling it everything will compile to the right folder and bundle itself. If not please use own setup.  
+This prototype utilizes Angular.  
+When cloning just type `npm i` at the root of the project to install all dependencies.
+You start the project by typing `ng serve`. This will start a development server at `127.0.0.1:4200`.
+This will only be for development purposes.
 
 ## Idea
 The core idea is to make an healthy office life easier.  
