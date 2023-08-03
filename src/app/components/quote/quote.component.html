@@ -1,0 +1,22 @@
+<div id="quote-component" class="w-100">
+    <div *ngIf="quote$ | async as quote; else loading">
+        <figure class="text-center">
+            <blockquote class="blockquote">
+                <p>{{ quote.text }}</p>
+            </blockquote>
+            <figcaption class="blockquote-footer">
+                {{ quote.author }}
+            </figcaption>
+        </figure>
+    </div>
+</div>
+
+<ng-template #loading>
+    <div class="d-flex">
+        <div class="mx-auto">
+            <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+    </div>
+</ng-template>
