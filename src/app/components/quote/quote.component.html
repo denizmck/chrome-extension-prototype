@@ -2,7 +2,7 @@
     <div *ngIf="quote$ | async as quote; else loading">
         <figure class="text-center">
             <blockquote class="blockquote">
-                <p>{{ quote.text }}</p>
+                <p>"{{ quote.text }}"</p>
             </blockquote>
             <figcaption class="blockquote-footer">
                 {{ quote.author }}
